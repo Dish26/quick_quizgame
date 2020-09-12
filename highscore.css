@@ -1,0 +1,26 @@
+#highScoresList {
+    list-style: none;
+    padding:0;
+    margin-bottom: 4rem;
+    justify-content: center;
+    align-items: center;
+    background-color: peachpuff;
+}
+
+.high-score{
+    font-size: 30px;
+    margin-bottom: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+#highScores{
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-decoration:underline ;
+}
+
+.high-score:hover{
+    transform: scale(1.025);
+}
