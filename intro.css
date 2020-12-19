@@ -128,3 +128,69 @@ input::placeholder{
   align-items: center;
   justify-content: center;
 } 
+
+footer div{
+	margin: 50px auto;
+	text-align: center;
+  font-size: 1.1em;
+ 
+}
+.social{
+	text-decoration: none;
+	color: gray;
+}
+.social:hover{
+	color: #00AAFF;
+}
+footer ul{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+}
+footer span{
+	padding-bottom: 5px;
+	margin-right: 5px;
+}
+footer ul li{
+	margin: 0 10px;
+	line-height: 10px;
+}
+footer ul li:nth-child(1){
+	margin-left: 10px;
+}
+
+#last{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#title{
+  position: sticky;
+	top: 0;
+	border-top: 3px  dotted black;
+	border-bottom: 3px dotted black;
+	opacity: 1;
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	background-size: 100%;
+	background-color: pink;
+  background-blend-mode: difference;
+  font-size: 37px;
+}
+
+@viewport {
+  width: device-width ;
+  height:device-height ;
+  zoom: 1.0 ;
+  display: flex;
+} 
+
+/* @media (min-width: 500px){
+  #quiz last{
+    width: 80%;
+  } 
+} */

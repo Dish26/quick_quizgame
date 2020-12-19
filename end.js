@@ -26,5 +26,5 @@ saveHighScore = e => {
   highScores.splice(5);
 
   localStorage.setItem("highScores", JSON.stringify(highScores));
-  window.location.assign("C:\\Users\\Intel\\Desktop\\Disha\\JS\\index.htm");
+  window.location.assign("C:\\Users\\Intel\\Desktop\\Disha\\JS\\intro.htm");
 };

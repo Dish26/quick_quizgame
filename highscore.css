@@ -24,3 +24,50 @@ h1{
 .high-score:hover{
     transform: scale(1.025);
 }
+
+
+footer div{
+	margin: 50px auto;
+	text-align: center;
+	font-size: 1.1em;
+}
+.social{
+	text-decoration: none;
+	color:gray;
+}
+.social:hover{
+	color: #00AAFF;
+}
+footer ul{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+}
+footer span{
+	padding-bottom: 5px;
+	margin-right: 5px;
+}
+footer ul li{
+	margin: 0 10px;
+	line-height: 10px;
+}
+footer ul li:nth-child(1){
+	margin-left: 10px;
+}
+
+#last{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+@viewport {
+	width: device-width ;
+	height:device-height ;
+	zoom: 1.0 ;
+	display: flex;
+  } 
+  
